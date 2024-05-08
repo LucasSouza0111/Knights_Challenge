@@ -1,7 +1,7 @@
 <template>
 	<aside :class="`${is_expanded ? 'is-expanded' : ''}`">
 		<div class="logo">
-			<img :src="logoURL" alt="Vue" /> 
+			<img :src="logoURL" alt="BTG" /> 
 		</div>
 
 		<div class="menu-toggle-wrap">
@@ -48,7 +48,7 @@ aside {
 	background-color: var(--dark);
 	color: var(--light);
 
-	width: calc(2rem + 32px);
+	width: calc(3rem + 32px);
 	overflow: hidden;
 	min-height: 100vh;
 	padding: 1rem;
@@ -63,7 +63,7 @@ aside {
 		margin-bottom: 1rem;
 
 		img {
-			width: 2rem;
+			width: 4rem;
 		}
 	}
 
