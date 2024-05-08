@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-primary {   
+    background-color: #1867c0!important;
+    color: #fff;
+    margin-left: 2%;
+}
+.bg-primary:hover {   
+    background-color: #1660b4!important;
+    color: #fff
+}
+.text-primaryed{
+    color: #1867c0!important;
+}
+
+.text-primaryed:hover{
+    background-color: #d7eaff!important;
+    color: #1867c0!important;
+}
+
+.title{
+   font-weight: bold;
+}
